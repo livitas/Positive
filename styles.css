@@ -78,7 +78,7 @@ img {
 }
 
 .link-section {
-    
+
     font-weight: 500;
     font-size: 18px;
     line-height: 27px;
@@ -86,13 +86,106 @@ img {
     color: #6FBF44;
     cursor: pointer;
 }
-@media screen and (max-width: 1460px){
+
+@media screen and (max-width: 1460px) {
     h1 {
         margin-top: 2%;
     }
 }
 
 @media screen and (max-width: 1000px) {
+    
+    .link-header {
+        display: none;
+    }
+
+    .button-header {
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        right: 5%;
+        bottom: 93%;
+        width: 91px;
+        height: 31px;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    section {
+        position: absolute;
+        top: 18%;
+        margin: 0;
+        padding: 0;
+        display: block;
+        width: auto;
+        height: auto;
+    }
+
+    h1 {
+        width: auto;
+        height: 100%;
+        margin: 0 55px 29px 55px;
+        padding: 0;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 30px;
+        text-align: center;
+        letter-spacing: 0.596154px;
+    }
+
+    p {
+        width: auto;
+        height: 100%;
+        margin: 0 43px 20px 43px;
+        padding: 0;
+        display: block;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 33px;
+        text-align: center;
+        letter-spacing: 0.5px;
+    }
+
+    .link-section {
+        display: block;
+        margin: auto;
+        padding: 0;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 27px;
+        letter-spacing: 1px;
+        width: auto;
+        height: 27px;
+        text-align: center;
+    }
+
+
+    .image {
+
+        
+        margin: auto;
+        padding: 0;
+        width: 90%;
+        height: auto;
+        display: block;
+
+    }
+
+    img {
+        margin: auto;
+        position: absolute;
+        bottom: 5%;
+        left: 5%;
+        right: 5%;
+    }
+
+
+}
+
+
+
+@media screen and (max-width: 750px) {
 
     .link-header {
         display: none;
@@ -114,7 +207,7 @@ img {
     .image {
         margin: 0;
         padding: 0;
-        position:  absolute;
+        position: absolute;
         left: 5%;
         top: 60%;
         width: 90%;
@@ -126,7 +219,7 @@ img {
     img {
         margin: 0;
         padding: 0;
-        position:  absolute;
+        position: absolute;
         left: 5%;
         top: 60%;
         width: 90%;
@@ -186,7 +279,7 @@ img {
 }
 
 
-@media screen and (max-width: 375px){
+@media screen and (max-width: 375px) {
 
     section {
         position: absolute;
