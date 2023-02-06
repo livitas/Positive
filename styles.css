@@ -1,0 +1,267 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 45px 0 0 42px;
+}
+
+.link-header {
+    margin-right: 36px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.875px;
+    color: #17233D;
+    cursor: pointer;
+}
+
+.button-header {
+    width: 124px;
+    height: 51px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    background: #6FBF44;
+    border: 1px solid #4CB538;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+
+.hello {
+    display: inline-block;
+    margin: 220px 0 0 121px;
+}
+
+section {
+    display: inline-block;
+    margin: 220px 57px 0 0;
+    margin-left: 84px;
+}
+
+h1 {
+    width: 582px;
+    height: 164px;
+    left: 801px;
+    top: 342px;
+
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    letter-spacing: 0.596154px;
+    color: #161A49;
+}
+
+p {
+    margin-top: 47px;
+    width: 493px;
+    height: 99px;
+    left: 801px;
+    top: 553px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    color: #4B505A;
+    margin-bottom: 55px;
+}
+
+img {
+    margin-left: 5%;
+}
+
+.link-section {
+    
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 1px;
+    color: #6FBF44;
+    cursor: pointer;
+}
+@media screen and (max-width: 1460px){
+    h1 {
+        margin-top: 2%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+
+    .link-header {
+        display: none;
+    }
+
+    .button-header {
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        right: 5%;
+        bottom: 93%;
+        width: 91px;
+        height: 31px;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .image {
+        margin: 0;
+        padding: 0;
+        position:  absolute;
+        left: 5%;
+        top: 60%;
+        width: 90%;
+        height: auto;
+        display: block;
+        padding-bottom: 10%;
+    }
+
+    img {
+        margin: 0;
+        padding: 0;
+        position:  absolute;
+        left: 5%;
+        top: 60%;
+        width: 90%;
+        height: auto;
+        display: block;
+        padding-bottom: 10%;
+    }
+
+    section {
+        position: absolute;
+        top: 18%;
+        margin: 0;
+        padding: 0;
+        display: block;
+        width: auto;
+        height: auto;
+    }
+
+    h1 {
+        width: auto;
+        height: 100%;
+        margin: 0 55px 29px 55px;
+        padding: 0;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 30px;
+        text-align: center;
+        letter-spacing: 0.596154px;
+    }
+
+    p {
+        width: auto;
+        height: 100%;
+        margin: 0 43px 20px 43px;
+        padding: 0;
+        display: block;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 33px;
+        text-align: center;
+        letter-spacing: 0.5px;
+    }
+
+    .link-section {
+        display: block;
+        margin: auto;
+        padding: 0;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 27px;
+        letter-spacing: 1px;
+        width: auto;
+        height: 27px;
+        text-align: center;
+    }
+
+}
+
+
+@media screen and (max-width: 375px){
+
+    section {
+        position: absolute;
+        top: 15%;
+        margin: 0;
+        padding: 0;
+        display: block;
+        width: auto;
+        height: auto;
+    }
+
+    p {
+        width: auto;
+        height: 100%;
+        margin: 0 43px 10px 43px;
+        padding: 0;
+        display: block;
+        text-align: center;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 33px;
+        text-align: center;
+        letter-spacing: 0.5px;
+    }
+}
+
+@media screen and (max-width: 330px) {
+
+    section {
+        position: absolute;
+        top: 15%;
+        margin: 0;
+        padding: 0;
+        display: block;
+        width: auto;
+        height: auto;
+    }
+
+    h1 {
+        width: auto;
+        height: 100%;
+        margin: 0 55px 15px 55px;
+        padding: 0;
+        text-align: center;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+        letter-spacing: 0.596154px;
+    }
+
+    p {
+        width: auto;
+        height: 100%;
+        margin: 0 43px 10px 43px;
+        padding: 0;
+        display: block;
+        text-align: center;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 33px;
+        text-align: center;
+        letter-spacing: 0.5px;
+    }
+
+    .link-section {
+        display: block;
+        margin: auto;
+        padding: 0;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 27px;
+        letter-spacing: 1px;
+        width: auto;
+        height: 27px;
+        text-align: center;
+    }
+}
